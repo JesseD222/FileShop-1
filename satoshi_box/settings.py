@@ -166,6 +166,6 @@ DEPLOYMENT_URL = 'http://localhost:8080'
 
 # Load Local Settings
 try:
-    from .local_settings import *
+    from .settings import *
 except ImportError as e:
     pass
